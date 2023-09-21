@@ -8,3 +8,5 @@ a:active {
 div:hover { 
     color: rgb(98, 0, 255); 
 }
+.BotaoPadrao{border-radius: 100px;
+background: var(--m-3-sys-light-primary, #6750A4);}

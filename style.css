@@ -1,12 +1,39 @@
-:visited { 
-    color: rgb(204, 255, 0); 
-}
 
-a:active { 
-    color: rgb(223, 30, 30); 
+ .quadrado {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: rotação 4s linear infinite;
+animation: ;
+}    
+
+    @keyframes rotação {
+        0% {
+          transform: rotate(0deg); /* Comece a rotação a 0 graus */
+        }
+        20% {
+          transform: rotate(72deg); /* Etapa 1: 72 graus */
+        }
+        40% {
+          transform: rotate(144deg); /* Etapa 2: 144 graus */
+        }
+        60% {
+          transform: rotate(216deg); /* Etapa 3: 216 graus */
+        }
+        80% {
+          transform: rotate(288deg); /* Etapa 4: 288 graus */
+        }
+        100% {
+          transform: rotate(360deg); /* Volte à posição inicial após 360 graus */
+        }}
+
+        
+  .quadrado:hover {
+    background-color: blue;
+animation: Mudançadecor 20ms;}
+
+@keyframes Mudançadecor {
+    0% {background-color:red}
+    50% {background-color: blueviolet;}
+    100% {background-color: blue;}
 }
-div:hover { 
-    color: rgb(98, 0, 255); 
-}
-.BotaoPadrao{border-radius: 100px;
-background: var(--m-3-sys-light-primary, #6750A4);}

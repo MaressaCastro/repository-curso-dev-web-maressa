@@ -37,3 +37,25 @@ animation: Mudançadecor 20ms;}
     50% {background-color: blueviolet;}
     100% {background-color: blue;}
 }
+
+
+div {width: 100px;
+height: 100px;
+border: dotted 1px red;
+}
+
+section{
+  display: flex;
+  flex-wrap: wrap;
+  }
+  
+.quadrado1 {background-color: red;}
+.quadrado2 {background-color: blue;}
+.quadrado3 {background-color: violet;}
+.quadrado4 {background-color: black;}
+.quadrado5 {background-color: aquamarine;}
+.quadrado6 {background-color: red;}
+.quadrado7 {background-color: blue;}
+.quadrado8 {background-color: violet;}
+.quadrado9 {background-color: black;}
+.quadrado10 {background-color: aquamarine;}

@@ -59,3 +59,7 @@ section{
 .quadrado8 {background-color: violet;}
 .quadrado9 {background-color: black;}
 .quadrado10 {background-color: aquamarine;}
+
+.Teste-imagem {display: flex;
+width: 20px;
+height: 20px;}

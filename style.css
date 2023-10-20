@@ -4,7 +4,6 @@
     height: 100px;
     background-color: red;
     animation: rotação 4s linear infinite;
-animation: ;
 }    
 
     @keyframes rotação {
@@ -63,3 +62,14 @@ section{
 .Teste-imagem {display: flex;
 width: 20px;
 height: 20px;}
+
+.CSS-is-awesome {
+
+  border: solid 1px black;
+  	display: inline-block;
+  	font-size: 32px;
+  	font-family: Arial;
+   	/* propriedades que fazem o "problema" */
+  	width: 100px;
+  	height: 110px;
+}
